@@ -13,9 +13,10 @@ public class Main{
 
         System.out.println("Ergebnisse: ");
         System.out.println("Summe: " + calc.addiere(zahl1, zahl2));
-        System.out.println("Summe: " + calc.subtrahiere(zahl1, zahl2));
-        System.out.println("Summe: " + calc.multipliziere(zahl1, zahl2));
-        System.out.println("Summe: " + calc.dividiere(zahl1, zahl2));
+        System.out.println("Differenz: " + calc.subtrahiere(zahl1, zahl2));
+        System.out.println("Produkt: " + calc.multipliziere(zahl1, zahl2));
+        System.out.println("Division: " + calc.dividiere(zahl1, zahl2));
+        System.out.println("Modulo: " + calc.dividiere(zahl1, zahl2));
 
     }
 }
