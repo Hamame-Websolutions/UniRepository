@@ -22,6 +22,6 @@ public class Calculator {
     }
 
 
-    //irgendwas hinzufügen ist nicht wichtig
-    
+    //irgendwas hinzufügen ist nicht wichtig oder auch nicht
+
 }
