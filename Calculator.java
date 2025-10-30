@@ -15,4 +15,9 @@ public class Calculator {
         int summe = zahl1 / zahl2;
         return summe;
     }
+
+    public int modulo(int zahl1, int zahl2) {
+        int summe = zahl1 % zahl2;
+        return summe;
+    }
 }

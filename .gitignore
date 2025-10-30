@@ -1,1 +1,8 @@
-/logs/
+### Ignore Logs-Folder
+logs/
+
+### Ignore .log-files
+
+*.log
+
+prompts.txt
