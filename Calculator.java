@@ -20,4 +20,8 @@ public class Calculator {
         int summe = zahl1 % zahl2;
         return summe;
     }
+
+
+    //irgendwas hinzufügen ist nicht wichtig
+    
 }
