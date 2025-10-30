@@ -9,11 +9,13 @@ public class Main{
         int zahl2 = s.nextInt();
         s.close();
 
+        Calculator calc = new Calculator();
+
         System.out.println("Ergebnisse: ");
-        System.out.println("Summe: " + (zahl1 + zahl2));
-        System.out.println("Summe: " + (zahl1 - zahl2));
-        System.out.println("Summe: " + (zahl1 * zahl2));
-        System.out.println("Summe: " + (zahl1 / zahl2));
+        System.out.println("Summe: " + calc.addiere(zahl1, zahl2));
+        System.out.println("Summe: " + calc.subtrahiere(zahl1, zahl2));
+        System.out.println("Summe: " + calc.multipliziere(zahl1, zahl2));
+        System.out.println("Summe: " + calc.dividiere(zahl1, zahl2));
 
     }
 }
